@@ -34,7 +34,7 @@ git clone https://github.com/dustinii/PortfolioV1.git
 2. Open the `index.html` in your preferred browser.
 
 ## Deployed Application
-The live application can be viewed [here]().
+The live application can be viewed [here](https://dustinii.github.io/PortfolioV1/).
 
 ## Pages
 

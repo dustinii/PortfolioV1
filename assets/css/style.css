@@ -283,9 +283,9 @@ footer {
 /* Responsive Properties */
 @media screen and (max-width: 980px) {
     header {
-        padding: 0 0 10px 0;
-        justify-content: center;
         text-align: center;
+        justify-content: center;
+        padding: 0 0 10px 0;
     }
 
     header h1 {
@@ -305,12 +305,12 @@ footer {
     }
 
     .page-section>h2 {
-        border-right: none;
-        border-bottom: 4px solid var(--primary);
+        font-size: 7vw;
         margin-bottom: 20px;
         padding-bottom: 10px;
+        border-right: none;
+        border-bottom: 4px solid var(--primary);
         text-align: left;
-        font-size: 7vw;
     }
 }
 
@@ -326,21 +326,21 @@ footer {
     }
 
     .flex-item div {
-        border: 3px solid var(--primary);
         background-color: var(--secondary);
+        border: 3px solid var(--primary);
     }
 
     .pearmusic {
         background-image: url("../images/pearmusicALT.png");
     }
-
-    .project-description {
-        display: none;
-    }
-
+    
     .hero-banner {
         justify-content: center;
         text-align: center;
+    }
+
+    .project-description {
+        display: none;
     }
 
     .contact address {
@@ -349,7 +349,7 @@ footer {
     }
 
     .resume p {
-        flex-direction: column;
         align-items: flex-start;
+        flex-direction: column;
     }
 }

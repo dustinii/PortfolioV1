@@ -12,9 +12,9 @@
 
 <body>
     <!-- Header / Nav -->
-    <header>
+    <header role="banner">
         <h1>Dustin Ian Ildefonso</h1>
-        <nav>
+        <nav role="navigation">
             <a href="#aboutme">About Me</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact Me</a>
@@ -24,16 +24,16 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner">
-        <h2>Hi! I'm Dustin! <i class="fa-solid fa-face-smile"></i></h2>
+        <h2>Hi! I'm Dustin! <i class="fa-solid fa-face-smile" aria-hidden="true"></i></h2>
     </section>
 
-    <main class="main-wrapper">
+    <main class="main-wrapper" role="main">
         <!-- About Me -->
         <section class="page-section" id="aboutme">
             <h2>About Me</h2>
             <div>
-                <p>          
-                    <hr>          
+                <p>
+                    <hr>
                     <br>
                     I am a full-stack software developer equipped with comprehensive training from the University of
                     California, Irvine from my undergrad, and, more recently, at the Full Stack Development
@@ -43,11 +43,12 @@
                     I am adept at delivering high-quality and
                     efficient code, illustrated through diverse projects that
                     I've spearheaded both independently and collaboratively.
-                    <br></br>                  
+                    <br></br>
                     My passion for building innovative solutions and tackling complex problems fuels my commitment to
                     lifelong learning and growth which helps me to adapt
                     and deliver in the ever-evolving landscape of Tech.
-                    I love building things and solving problems! This fuels my desire to contribute as an asset to cutting-edge
+                    I love building things and solving problems! This fuels my desire to contribute as an asset to
+                    cutting-edge
                     projects. I am eager to find opportunities to
                     collaborate, innovate, and make meaningful impacts in the dynamic field of technology.
                     <br></br>
@@ -61,17 +62,20 @@
             <h2>Projects</h2>
             <div class="flex-container">
 
-                <a href="https://polar-cove-07937.herokuapp.com/" class="flex-item BDSM">
+                <a href="https://polar-cove-07937.herokuapp.com/" class="flex-item BDSM" alt="UberEats for burgers in the future app">
                     <div>
                         <h3>BDSM</h3>
-                        <p class="project-description"> UberEats Clone for the future! <br> Handlebars / Express / MySQL / Node</p>
+                        <p class="project-description"> UberEats Clone for the future! <br> Handlebars / Express / MySQL
+                            / Node</p>
+                            <!-- <details>Get your burgers delivered by Space Monkeys's using proprietary teleportation technology to satisfy your hunger NOW!</details> -->
                     </div>
                 </a>
 
-                <a href="https://vlad1slav86.github.io/Pear-Music/" class="flex-item pearmusic">
+                <a href="https://vlad1slav86.github.io/Pear-Music/" class="flex-item pearmusic" alt="Music Suggestion app based on Genre">
                     <div>
                         <h3>Pear Music</h3>
-                       <p class="project-description"> Music Suggestor <br>Bulma / Last.FM API / UnsplashAPI</p>
+                        <p class="project-description"> Music Suggestor <br>Bulma / Last.FM API / UnsplashAPI</p>
+                        <!-- <details>Find new music based on your favorite genre!</details> -->
                     </div>
                 </a>
 
@@ -103,10 +107,11 @@
             <h2>Contact Me</h2>
             <div>
                 <address>
-                    <a href="tel:+16264048243"><i class="fa-solid fa-phone"></i>  Phone No: (626) 404-8243</a>
-                    <a href="mailto:crest.of.ildefonso@gmail.com"><i class="fa-solid fa-envelope"></i>  Email: crest.of.ildefonso@gmail.com</a>
-                    <a href="https://github.com/dustinii/"><i class="fa-brands fa-github"></i>  Github</a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i>  LinkedIn</a>
+                    <a href="tel:+16264048243"><i class="fa-solid fa-phone"></i> Phone No: (626) 404-8243</a>
+                    <a href="mailto:crest.of.ildefonso@gmail.com"><i class="fa-solid fa-envelope"></i> Email:
+                        crest.of.ildefonso@gmail.com</a>
+                    <a href="https://github.com/dustinii/"><i class="fa-brands fa-github"></i> Github</a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
                 </address>
             </div>
         </section>
@@ -116,13 +121,14 @@
             <h2>Resume</h2>
             <div>
                 <p>
-                   <a class= "resume-link" href="/assets/documents/RESUME Dustin Ildefonso SE.pdf"><i class="fa-solid fa-file"></i>  View Dustin's Resume</a>
+                    <a class="resume-link" href="/assets/documents/RESUME Dustin Ildefonso SE.pdf"><i
+                            class="fa-solid fa-file"></i> View Dustin's Resume</a>
                 </p>
             </div>
     </main>
-    
+
     <!-- Copyright Footer -->
-    <footer>
+    <footer role="contentinfo">
         <h3>&copy; Dustin Ian Ildefonso 2023</h3>
     </footer>
 </body>

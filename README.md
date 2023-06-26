@@ -11,6 +11,7 @@ This repository hosts the code for the personal portfolio of Dustin Ildefonso (m
 - [Pages](#pages)
 - [Screenshot](#screenshot)
 - [Contact](#contact)
+- [Credits](#credits)
 
 ## Introduction
 
@@ -48,6 +49,9 @@ The website has the following sections:
 ## Screenshot
 
 ![Alt text](image.png)
+
+## Credits
+Thank you to my tutors, instructors, and TA's who helped me throughtout the most frustrating parts of this project. This was a long time coming!
 
 ## Contact
 
